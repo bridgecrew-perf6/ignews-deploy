@@ -1,0 +1,21 @@
+{
+  "id": "1720dcc4-b85e-46a0-adb1-e6d09bf8996e",
+  "uid": "totam-nihil-et",
+  "type": "post-id",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Drive dynamic infrastructures",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Laboris qui voluptate ullamco ea ut aute tempor laboris Lorem occaecat nostrud minim irure amet.",
+        "spans": []
+      }
+    ]
+  }
+}
