@@ -36,10 +36,7 @@ const Post = ({ post }: PostProps) => {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async ({
-  req,
-  params
-}) => {
+export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   const session = await getSession()
 
   const { slug } = params

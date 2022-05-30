@@ -43,8 +43,8 @@ export const Posts = ({ posts }: PostsProps) => {
 
 export default Posts
 
-export const getStaticProps: GetStaticProps = async ({ previewData }) => {
-  const prismic = createClient({ previewData })
+export const getStaticProps: GetStaticProps = async () => {
+  const prismic = createClient()
   const response = await prismic.getAllByType('post-id', {
     pageSize: 100
   })
