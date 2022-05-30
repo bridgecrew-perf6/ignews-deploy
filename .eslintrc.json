@@ -5,6 +5,7 @@
       "node": true
   },
   "extends": [
+      "next",
       "eslint:recommended",
       "standard",
       "plugin:react-hooks/recommended",
