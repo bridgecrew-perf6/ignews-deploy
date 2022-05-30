@@ -40,7 +40,7 @@ export const getServerSideProps: GetServerSideProps = async ({
   req,
   params
 }) => {
-  const session = await getSession({ req })
+  const session = await getSession()
 
   const { slug } = params
 
@@ -53,7 +53,7 @@ export const getServerSideProps: GetServerSideProps = async ({
     }
   }
 
-  const prismic = createClient(req)
+  const prismic = createClient()
 
   const response = await prismic.getByUID('post-id', slug.toString(), {})
 
